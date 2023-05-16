@@ -51,6 +51,9 @@ input{
 footer{
     height: 100px;
         width: 100%;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
       
     background-color: #50B545;
 }
