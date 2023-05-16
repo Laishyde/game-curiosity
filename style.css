@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+        font-family: KGRedHands;
+      
+        background: linear-gradient( #E0F6FF ,#87CEEB, #E0F6FF);
+   
+}
+@font-face {
+    font-family: KGRedHands ;
+    src: url(./assets/KGRedHands.ttf) format('truetype');
+}
+.content{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+   width: 80px;
+}
+#resultado{
+  font-size: 35px;
+  padding: 20px;
+  color: #D98B2B;
+   
+}
+h2{
+    font-size: 35px;
+    color: #944314;
+
+    
+}
+#pergunta{
+        font-size: 25px;
+        padding: 20px;
+        color: #944314;
+
+}
+input{
+    padding: 20px;
+    border: 2px solid #D98B2B;
+}
+footer{
+    height: 100px;
+        width: 100%;
+      
+    background-color: #50B545;
+}
+
+
+
+
+
+
+
+button{
+    width: 180px;
+    height: 93px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #D98B2B;
+    border-radius: 80px;
+    outline: none;
+    transition: 1s ease-in-out;
+    background-image: url(./assets/madeira.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+button:hover {
+    transition: 1s ease-in-out;
+    background: gold;
+}
+
+button:hover svg {
+    stroke-dashoffset: -480;
+}
+
+button {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
